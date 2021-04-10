@@ -1,3 +1,5 @@
+require 'pp'
+require 'pry'
 class Garden
   attr_accessor :name
 
@@ -35,4 +37,6 @@ basil.garden = lawn
 cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
 
-p lawn.plants
+pp lawn.plants
+
+
